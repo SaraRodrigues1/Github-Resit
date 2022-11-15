@@ -22,7 +22,7 @@ h1{
 	margin-left:140px;
 	margin-bottom:0;
 	padding-bottom:0;
-	grid-column: 2/10;
+	grid-column: 2/9;
 	text-align:left;
 	vertical-align: top;
 }
@@ -36,7 +36,7 @@ h2{
 	margin-left:140px;
 	margin-top:0;
 	padding-top:0;
-	grid-column: 2/10;
+	grid-column: 2/9;
 	text-align:left;
 }
 
@@ -44,8 +44,18 @@ h4{
 	color:#FFFFFF;
 }
 
+h5{
+	color:#FFFFFF;
+	text-shadow: -1px -1px 0 #871054, 1px -1px 0 #871054, -1px 1px 0 #871054, 1px 1px 0 #871054;
+	font-size:25px;
+	margin-top:0;
+	padding-top:0;
+	grid-column: 2/9;
+	text-align:left;
+}
+
 .headerSettings{
-	grid-column: 2/10;
+	grid-column: 2/9;
 }
 
 header{ 
@@ -68,7 +78,7 @@ h3{
 }
 
 .Welcome{
-	grid-column:3/6;
+	grid-column:2/6;
 }
 
 .Welcome a{
@@ -80,13 +90,15 @@ h3{
 
 .Welcome small{
 	color:#FFFFFF;
-	grid-column:3/7;
+	grid-column:2/7;
 }
 
 .Welcome ul{
 	list-style: georgian outside url('/non-existent.svg');
 	color:#FFFFFF
 }
+
+
 
 .selfie{
 	grid-column:7/9;
@@ -97,6 +109,35 @@ h3{
 	margin-top:50px;
 	height:40%;
 }
+
+.dance{
+	color:#871054;
+	grid-column: 2/9;
+	background-color:#FFE1F5;
+	margin:30px;
+	padding-left:30px;
+	padding-right:100px;
+	padding-top:30px;
+	padding-bottom:30px;
+	border-radius:5%;
+	border-style:solid;
+	border-color:#871054;
+}
+
+.dance img{
+	height:350px;
+	width:auto;
+	padding:5px;
+	grid-column:2/9;
+}
+
+.mag{
+	grid-column:2/9;
+	display:flex;
+	justify-content:center;
+	justify-content:space-between;
+}
+
 
 /* footer */
 
